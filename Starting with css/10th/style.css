@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #050505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 5px 5px #525252 ;
+}
+.heading{
+    color: #07e2e2;
+}
+.description{
+    color: #dddddd;
+}

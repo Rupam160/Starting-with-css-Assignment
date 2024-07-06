@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registratin From</title>
+    <style>
+        input[type="text"]{
+            color: aqua;
+        }
+        input[type="email"]{
+            color: #37ff00;
+        }
+        input[type="password"]{
+            color: #003cff;
+        }
+        input[type="submit"]{
+            color: #f6f6f6;
+            background-color: black;
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+        }
+
+        .registration-from{
+            width: 400px;
+            margin: 0 auto;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px #9b9b9b;
+        }
+        .registration-from h2{
+            text-align: center;
+        }
+        .registration-from label{
+            display: block;
+            margin: 5px 5px;
+        }
+        .registration-from input{
+            width: 95%;
+            padding: 5px;
+            margin: 10px 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .foot{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="registration-from">
+        <h2>Registratin From</h2>
+        <form action="#">
+            <label for="Username">Username:</label>
+            <input type="text" name="Username" id="Username" placeholder="Enter Username"><br>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="Email" placeholder="Enter Email"><br>
+            <label for="Password">Password:</label>
+            <input type="password" name="Password" id="Password" placeholder="Enter Password"><br>
+            <label for="Confirm Password">Confirm Password:</label>
+            <input type="password" name="Confirm Password" id="Confirm Password"><br>
+            <input type="submit" value="Register">
+        </form>
+        <div class="foot"> made by Rupam Barat</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input field</title>
+    <style>
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus{
+            background-color: #f2f242;
+        }
+    </style>
+</head>
+<body>
+    <form >
+        <table border="1">
+            <tr>
+                <td>
+                    <label>Name</label>
+                </td>
+                <td>
+                    <input type="text" name="name" placeholder="Enter your name" >
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label>Email</label>
+                </td>
+                <td>
+                    <input type="email" name="name" placeholder="Enter your email" >
+                </td>
+            </tr>
+            <tr>
+               <td>
+                    <label>Password</label>
+                </td>
+                <td>
+                    <input type="password" name="name" placeholder="Enter your password" >
+                </td>
+            </tr>
+    
+        </table>
+        <div class="submit">
+            <input type="button" value="Submit">
+        </div>
+
+    </form>
+</body>
+</html>
